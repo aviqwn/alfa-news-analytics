@@ -21,4 +21,8 @@ docs/source/*
 reports/data_manifest.json
 reports/data_audit.json
 reports/screenshots/
+reports/ui-inspection/
+reports/evaluation.json
+reports/browser-checks.json
+reports/external-source-check.json
 .taste-skill/

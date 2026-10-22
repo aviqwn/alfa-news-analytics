@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ef3124"><title>Пульс бизнеса — Альфа-Бизнес</title><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="stylesheet" href="/styles.css"><script src="/app.js" defer></script></head>
+<body>
+<a class="skip" href="#main">К содержимому</a>
+<div class="app-shell">
+<aside class="sidebar" id="sidebar" aria-label="Навигация Альфа-Бизнеса">
+<a href="#home" class="brand" aria-label="Альфа-Бизнес, главная"><span class="brand-mark" aria-hidden="true">А<span></span></span><span>Альфа-Бизнес</span></a>
+<div class="workspace"><span class="small muted">Демонстрационный кабинет</span><strong id="workspace-name">Компания</strong><span class="small muted" id="workspace-kind">Проверяем происхождение</span></div>
+<nav><a href="#home" data-route="home"><svg viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10H3Z"/><path d="M9 20v-7h6v7"/></svg>Главная</a><a href="#pulse" data-route="pulse"><svg viewBox="0 0 24 24"><path d="M2 12h5l3-7 4 14 3-7h5"/></svg>Пульс бизнеса</a><a href="#profile" data-route="profile"><svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 7h6M9 11h6M9 15h3"/></svg>Профиль компании</a></nav>
+<div class="nav-bottom"><a href="#settings" data-route="settings"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/><circle cx="9" cy="6" r="2"/><circle cx="15" cy="12" r="2"/><circle cx="8" cy="18" r="2"/></svg>Режим и лимиты</a><p>Прототип для хакатона<br>Не банковский кабинет</p><div class="user"><span class="avatar">Д</span><span>Демо-пользователь<small>Роль выбирается в ленте</small></span></div></div>
+</aside>
+<div class="content-shell"><header class="topbar"><button class="menu-button" id="menu-button" aria-label="Открыть навигацию" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button><span class="breadcrumb">Бизнес / <strong id="breadcrumb">Пульс бизнеса</strong></span><a class="mode-tag" id="mode-tag" href="#settings"><span class="status-dot"></span>Проверяем режим</a></header>
+<main id="main" tabindex="-1"><div class="loading"><span class="spinner"></span>Загружаем персональную ленту…</div></main>
+<footer class="footer">Пульс бизнеса · Прототип новостной аналитики <span>Данные и выводы требуют проверки</span></footer></div>
+</div>
+<div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+<dialog id="import-dialog" aria-labelledby="import-title"><div class="dialog-head"><h2 id="import-title">Добавить новость</h2><button class="icon-button" id="close-import" aria-label="Закрыть">×</button></div><p class="muted">Вставьте новое событие для проверки анализа. Текст будет сохранён локально в прототипе.</p><form id="import-form"><label>Заголовок<input name="title" required maxlength="500" placeholder="О чём новость"></label><label>Текст новости<textarea name="text" required minlength="20" maxlength="20000" rows="6" placeholder="Полный текст события"></textarea></label><div class="form-pair"><label>Дата публикации<input type="date" name="date" required></label><label>Ссылка на источник<input type="url" name="url" placeholder="https://…"></label></div><label class="synthetic-check"><input type="checkbox" name="synthetic"> Синтетическое событие для проверки</label><p id="import-error" class="error-text" role="alert"></p><button class="primary" type="submit">Добавить в ленту</button></form></dialog>
+<noscript>Для интерактивного анализа требуется JavaScript. Включите его и обновите страницу.</noscript>
+</body></html>

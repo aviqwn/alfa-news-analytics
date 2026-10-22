@@ -1,0 +1,12 @@
+*
+!backend/
+!backend/**
+!frontend/
+!frontend/**
+!scripts/
+!scripts/run.py
+!data/
+!data/synthetic/
+!data/synthetic/**
+**/__pycache__/
+**/*.pyc

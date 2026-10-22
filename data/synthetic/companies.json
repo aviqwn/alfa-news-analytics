@@ -1,0 +1,194 @@
+[
+  {
+    "id": "DEMO_TRADE_A",
+    "name": "Демо · Торговая компания А",
+    "industry": "Торговля оптовая неспециализированная",
+    "okved": "46.90",
+    "revenue": null,
+    "revenue_unit": "unknown",
+    "features": [
+      {
+        "key": "MAINOKVED_CODE",
+        "label": "Основной ОКВЭД",
+        "value": "46.90",
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      },
+      {
+        "key": "MAINOKVED_NAME",
+        "label": "Деятельность",
+        "value": "Торговля оптовая неспециализированная",
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      },
+      {
+        "key": "CL_PRODUCT_LOA_MARK",
+        "label": "Кредитный продукт",
+        "value": 1,
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      },
+      {
+        "key": "CL_PRODUCT_DEP_MARK",
+        "label": "Депозитный продукт",
+        "value": 1,
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      },
+      {
+        "key": "FTS_FLAG",
+        "label": "Сведения ФТС",
+        "value": 1,
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      },
+      {
+        "key": "group_members_count",
+        "label": "Компаний в демонстрационной группе",
+        "value": 3,
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      },
+      {
+        "key": "payment_counterparties_count",
+        "label": "Платежных контрагентов в демо",
+        "value": 12,
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      }
+    ],
+    "unknowns": [
+      "Сумма долга, тип ставки, валюта и сроки договоров неизвестны.",
+      "Рыночная доля не определена."
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO_TRADE_B",
+    "name": "Демо · Торговая компания Б",
+    "industry": "Торговля оптовая неспециализированная",
+    "okved": "46.90",
+    "revenue": null,
+    "revenue_unit": "unknown",
+    "features": [
+      {
+        "key": "MAINOKVED_CODE",
+        "label": "Основной ОКВЭД",
+        "value": "46.90",
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      },
+      {
+        "key": "MAINOKVED_NAME",
+        "label": "Деятельность",
+        "value": "Торговля оптовая неспециализированная",
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      },
+      {
+        "key": "CL_PRODUCT_LOA_MARK",
+        "label": "Кредитный продукт",
+        "value": 0,
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      },
+      {
+        "key": "CL_PRODUCT_DEP_MARK",
+        "label": "Депозитный продукт",
+        "value": 0,
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      },
+      {
+        "key": "FTS_FLAG",
+        "label": "Сведения ФТС",
+        "value": 0,
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      },
+      {
+        "key": "group_members_count",
+        "label": "Компаний в демонстрационной группе",
+        "value": 1,
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      },
+      {
+        "key": "payment_counterparties_count",
+        "label": "Платежных контрагентов в демо",
+        "value": 2,
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      }
+    ],
+    "unknowns": [
+      "Сумма долга, тип ставки, валюта и сроки договоров неизвестны.",
+      "Рыночная доля не определена."
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO_BUILD",
+    "name": "Демо · Строительная компания",
+    "industry": "Строительство зданий",
+    "okved": "41.20",
+    "revenue": null,
+    "revenue_unit": "unknown",
+    "features": [
+      {
+        "key": "MAINOKVED_CODE",
+        "label": "Основной ОКВЭД",
+        "value": "41.20",
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      },
+      {
+        "key": "MAINOKVED_NAME",
+        "label": "Деятельность",
+        "value": "Строительство зданий",
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      },
+      {
+        "key": "CL_PRODUCT_LOA_MARK",
+        "label": "Кредитный продукт",
+        "value": 1,
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      },
+      {
+        "key": "CL_PRODUCT_DEP_MARK",
+        "label": "Депозитный продукт",
+        "value": 0,
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      },
+      {
+        "key": "FTS_FLAG",
+        "label": "Сведения ФТС",
+        "value": 0,
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      },
+      {
+        "key": "group_members_count",
+        "label": "Компаний в демонстрационной группе",
+        "value": 3,
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      },
+      {
+        "key": "payment_counterparties_count",
+        "label": "Платежных контрагентов в демо",
+        "value": 12,
+        "source": "data/synthetic/companies.json (вымышленный пример)",
+        "kind": "synthetic"
+      }
+    ],
+    "unknowns": [
+      "Сумма долга, тип ставки, валюта и сроки договоров неизвестны.",
+      "Рыночная доля не определена."
+    ],
+    "synthetic": true
+  }
+]

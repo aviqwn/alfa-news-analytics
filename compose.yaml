@@ -1,0 +1,23 @@
+services:
+  app:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      APP_MODE: ${APP_MODE:-test}
+      APP_TOKEN: ${APP_TOKEN:-local-demo-only-change-before-sharing}
+      SSL_CERT_FILE: /etc/ssl/certs/ca-certificates.crt
+    volumes:
+      - app-runtime:/app/runtime
+      - ./data/processed:/app/data/processed:ro
+      - ./data/raw:/app/data/raw:ro
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+volumes:
+  app-runtime:
