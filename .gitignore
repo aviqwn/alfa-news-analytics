@@ -1,0 +1,24 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.DS_Store
+runtime/*
+!runtime/.gitkeep
+tmp/*
+!tmp/.gitkeep
+# Исходники организаторов и производные данные: права распространения не уточнены.
+*.pdf
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+docs/source/*
+!docs/source/.gitkeep
+reports/data_manifest.json
+reports/data_audit.json
+reports/screenshots/
+.taste-skill/
