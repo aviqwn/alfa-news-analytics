@@ -233,6 +233,20 @@ class AgentTests(unittest.TestCase):
         health=app.dispatch('GET','/api/health',{},None)
         self.assertEqual(health['provider'],'OpenRouter')
         self.assertTrue(health['live_verified'])
+    def test_failed_probe_status_is_safe_and_bound_to_selected_model(self):
+        config=self.openrouter_config()
+        marker=self.root/'runtime/llm_probe.json'
+        marker.parent.mkdir(parents=True,exist_ok=True)
+        data={'success':False,'endpoint':config.endpoint,'model_id':config.model_id,
+              'error_code':'provider_rate_limit','untrusted_detail':'SECRET'}
+        marker.write_text(json.dumps(data))
+        app=App(self.root,self.root/'status.sqlite',config)
+        health=app.dispatch('GET','/api/health',{},None)
+        self.assertFalse(health['live_verified'])
+        self.assertTrue(health['probe_failed']);self.assertTrue(health['probe_rate_limited'])
+        self.assertNotIn('SECRET',json.dumps(health))
+        data['model_id']='different-model';marker.write_text(json.dumps(data))
+        self.assertFalse(app.dispatch('GET','/api/health',{},None)['probe_failed'])
     def test_openrouter_payment_or_rate_limit_never_retries(self):
         for status,code in [(402,'payment_required'),(429,'provider_rate_limit')]:
             with self.subTest(status=status):

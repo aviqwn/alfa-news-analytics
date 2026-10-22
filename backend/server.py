@@ -38,13 +38,17 @@ class App:
 
     def dispatch(self,method,path,query,body):
         if method=='GET' and path=='/api/health':
-            verified=False
+            verified=False;probe_failed=False;probe_rate_limited=False
             try:
                 marker=json.loads((self.root/'runtime/llm_probe.json').read_text())
-                verified=bool(marker.get('success') and marker.get('endpoint')==self.config.endpoint and marker.get('model_id')==self.config.model_id)
+                matches=marker.get('endpoint')==self.config.endpoint and marker.get('model_id')==self.config.model_id
+                verified=bool(matches and marker.get('success'))
+                probe_failed=bool(matches and marker.get('success') is False)
+                probe_rate_limited=bool(probe_failed and marker.get('error_code')=='provider_rate_limit')
             except (OSError,ValueError):pass
             return {'status':'ok','mode':self.config.mode,'live_ready':not bool(self.config.blockers()),'blockers':self.config.blockers(),
                 'auth_required':bool(self.config.auth_token),'data_mode':self.config.data_mode,'live_verified':verified,
+                'probe_failed':probe_failed,'probe_rate_limited':probe_rate_limited,
                 'provider':self.config.provider_name,
                 'access_mode':self.config.access_mode,'model_id':self.config.model_id,
                 'free_max_requests_24h':self.config.free_max_requests_24h,'free_max_tokens_24h':self.config.free_max_tokens_24h,
