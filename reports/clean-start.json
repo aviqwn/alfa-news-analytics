@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "python": "3.12.14",
+  "synthetic_companies": 3,
+  "events": 4,
+  "analysis": true,
+  "adaptive_search": true,
+  "api_requests": 0,
+  "third_party_runtime_dependencies": 0,
+  "docker_verified": false
+}

@@ -1,0 +1,11 @@
+Version: submission-private-2026-10-22
+Verification date: 2026-10-22
+Mode: test; OpenRouter / Gemma selected and key configured
+Live connectivity: one short request, HTTP 429, no retry, usage unknown
+Checks: 53 unit/HTTP/regression tests; browser verified failed-probe status
+Submission checks: 53 unit/HTTP tests rerun; nine isolated synthetic E2E checks passed without LLM calls
+Packaging: committed sources, both Git histories, SHA256 manifest; user authorized case data for organizers archive and private jury GitHub on 2026-10-22
+Earlier prototype checks: 36 controlled analyses and 13 browser checks (prototype-2026-10-22)
+Pending: successful free API response/live chain, Docker execution, GitHub submission
+Details: docs/СОСТОЯНИЕ_ПОДКЛЮЧЕНИЯ.md
+Resolve local tag: git rev-parse submission-private-2026-10-22

@@ -1,0 +1,16 @@
+{
+  "rss": {
+    "success": true,
+    "received": 14,
+    "latest_date": "2026-10-23"
+  },
+  "local_api_refresh": {
+    "status": 200,
+    "result": {
+      "source": "cbr",
+      "received": 14,
+      "imported": 14,
+      "duplicates": 0
+    }
+  }
+}

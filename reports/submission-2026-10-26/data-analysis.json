@@ -1,0 +1,46 @@
+{
+  "runs": 36,
+  "valid_citations": 36,
+  "exact_quotes_all_runs": true,
+  "runs_with_bank": 27,
+  "adaptive_runs": 9,
+  "pdfs": [
+    {
+      "name": "ALFA_Russian_Steels_1К21PreviewUpdate_15Apr2021.pdf",
+      "sha256_matches": true
+    },
+    {
+      "name": "ALFA-7M26.pdf",
+      "sha256_matches": true
+    },
+    {
+      "name": "ALFA-consumption.pdf",
+      "sha256_matches": true
+    },
+    {
+      "name": "ALFA-Macro_Insights-Policy_Rate_11Sep.pdf",
+      "sha256_matches": true
+    },
+    {
+      "name": "ALFA-macro_stat1H26.pdf",
+      "sha256_matches": true
+    },
+    {
+      "name": "FI_Strategy_3Q26_22072026.pdf",
+      "sha256_matches": true
+    },
+    {
+      "name": "Gold_digest_August26.pdf",
+      "sha256_matches": true
+    },
+    {
+      "name": "Inflation_tracker_02.pdf",
+      "sha256_matches": true
+    },
+    {
+      "name": "Бонд_Бриф_14092026.pdf",
+      "sha256_matches": true
+    }
+  ],
+  "llm_calls": 0
+}

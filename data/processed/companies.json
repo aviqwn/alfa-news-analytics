@@ -1,0 +1,441 @@
+[
+  {
+    "id": "U_5639",
+    "name": "Компания U_5639",
+    "industry": "Торговля оптовая неспециализированная",
+    "okved": "46.90",
+    "revenue": 24995827084.0,
+    "revenue_unit": "unknown",
+    "features": [
+      {
+        "key": "MAINOKVED_CODE",
+        "label": "Основной ОКВЭД",
+        "value": "46.90",
+        "source": "df_Uid_data_hack.csv:row=1563;SYNTHETIC_U=U_5639;column=MAINOKVED_CODE",
+        "kind": "observed"
+      },
+      {
+        "key": "MAINOKVED_NAME",
+        "label": "Вид деятельности",
+        "value": "Торговля оптовая неспециализированная",
+        "source": "df_Uid_data_hack.csv:row=1563;SYNTHETIC_U=U_5639;column=MAINOKVED_NAME",
+        "kind": "observed"
+      },
+      {
+        "key": "REVENUE_COMPANY",
+        "label": "Годовая выручка (единица в источнике не указана)",
+        "value": "24995827084.0",
+        "source": "df_Uid_data_hack.csv:row=1563;SYNTHETIC_U=U_5639;column=REVENUE_COMPANY",
+        "kind": "observed"
+      },
+      {
+        "key": "CL_PRODUCT_LOA_MARK",
+        "label": "Отметка кредитного продукта",
+        "value": "1.0",
+        "source": "df_Uid_data_hack.csv:row=1563;SYNTHETIC_U=U_5639;column=CL_PRODUCT_LOA_MARK",
+        "kind": "observed"
+      },
+      {
+        "key": "CL_PRODUCT_DEP_MARK",
+        "label": "Отметка депозитного продукта",
+        "value": "1.0",
+        "source": "df_Uid_data_hack.csv:row=1563;SYNTHETIC_U=U_5639;column=CL_PRODUCT_DEP_MARK",
+        "kind": "observed"
+      },
+      {
+        "key": "CL_PRODUCT_LEA_MARK",
+        "label": "Отметка лизингового продукта",
+        "value": "1.0",
+        "source": "df_Uid_data_hack.csv:row=1563;SYNTHETIC_U=U_5639;column=CL_PRODUCT_LEA_MARK",
+        "kind": "observed"
+      },
+      {
+        "key": "CL_PRODUCT_GAR_MARK",
+        "label": "Отметка банковских гарантий",
+        "value": "0.0",
+        "source": "df_Uid_data_hack.csv:row=1563;SYNTHETIC_U=U_5639;column=CL_PRODUCT_GAR_MARK",
+        "kind": "observed"
+      },
+      {
+        "key": "CL_PRODUCT_RKO_MARK",
+        "label": "Отметка РКО",
+        "value": "1.0",
+        "source": "df_Uid_data_hack.csv:row=1563;SYNTHETIC_U=U_5639;column=CL_PRODUCT_RKO_MARK",
+        "kind": "observed"
+      },
+      {
+        "key": "FACTORING_MARK",
+        "label": "Отметка факторинга",
+        "value": "0.0",
+        "source": "df_Uid_data_hack.csv:row=1563;SYNTHETIC_U=U_5639;column=FACTORING_MARK",
+        "kind": "observed"
+      },
+      {
+        "key": "FTS_FLAG",
+        "label": "Отметка наличия информации ФТС",
+        "value": "1.0",
+        "source": "df_Uid_data_hack.csv:row=1563;SYNTHETIC_U=U_5639;column=FTS_FLAG",
+        "kind": "observed"
+      },
+      {
+        "key": "FTS_COUNTRY_NAME",
+        "label": "Страны, указанные в данных ФТС",
+        "value": "ОАЭ, ИНДИЯ, КИТАЙ",
+        "source": "df_Uid_data_hack.csv:row=1563;SYNTHETIC_U=U_5639;column=FTS_COUNTRY_NAME",
+        "kind": "observed"
+      },
+      {
+        "key": "GROUP_ID",
+        "label": "Идентификатор группы в наборе",
+        "value": "group_134424_sb",
+        "source": "df_Uid_data_hack.csv:row=1563;SYNTHETIC_U=U_5639;column=GROUP_ID",
+        "kind": "observed"
+      },
+      {
+        "key": "REGION",
+        "label": "Регион регистрации",
+        "value": "Алтай (Республика)",
+        "source": "df_Uid_data_hack.csv:row=1563;SYNTHETIC_U=U_5639;column=REGION",
+        "kind": "observed"
+      },
+      {
+        "key": "CITY",
+        "label": "Город регистрации",
+        "value": "г. Горно-Алтайск",
+        "source": "df_Uid_data_hack.csv:row=1563;SYNTHETIC_U=U_5639;column=CITY",
+        "kind": "observed"
+      },
+      {
+        "key": "AMOUNT_WORKERS_FNS_GRADATION",
+        "label": "Градация числа работников ФНС",
+        "value": "16-100",
+        "source": "df_Uid_data_hack.csv:row=1563;SYNTHETIC_U=U_5639;column=AMOUNT_WORKERS_FNS_GRADATION",
+        "kind": "observed"
+      },
+      {
+        "key": "group_members_count",
+        "label": "Компаний с тем же GROUP_ID в наборе",
+        "value": 166,
+        "source": "df_Uid_data_hack.csv:row=1563;SYNTHETIC_U=U_5639;group-by=GROUP_ID",
+        "kind": "derived"
+      },
+      {
+        "key": "payment_counterparties_count",
+        "label": "Платежных связей с другими компаниями в наборе",
+        "value": 106,
+        "source": "df_Uid_payment_hack.csv;PAYER-or-BENEFICIARY=U_5639;distinct-other-ids;exclude-self",
+        "kind": "derived"
+      },
+      {
+        "key": "payment_known_counterparties_count",
+        "label": "Контрагентов с профилем в наборе",
+        "value": 31,
+        "source": "df_Uid_payment_hack.csv+df_Uid_data_hack.csv;company=U_5639",
+        "kind": "derived"
+      },
+      {
+        "key": "shared_person_companies_count",
+        "label": "Других компаний с общим обезличенным физлицом",
+        "value": 0,
+        "source": "df_Fid_Uid_link_hack.csv;SYNTHETIC_U=U_5639;shared-SYNTHETIC_F",
+        "kind": "derived"
+      }
+    ],
+    "unknowns": [
+      "Единица и отчетный год выручки не указаны; соответствие порогу 15 млрд ₽ требует подтверждения.",
+      "Размер, валюта, ставка и срок долга не известны; отметка продукта не равна задолженности.",
+      "Направление, объем и валюта внешней торговли не известны; страна ФТС не доказывает экспорт или импорт.",
+      "Юридический характер группы и связей физлиц неизвестен; владение и контроль не установлены.",
+      "Доля рынка и полный охват платежей неизвестны; PAY_AMT без единицы и периода."
+    ],
+    "synthetic": false
+  },
+  {
+    "id": "U_225628",
+    "name": "Компания U_225628",
+    "industry": "Торговля оптовая неспециализированная",
+    "okved": "46.90",
+    "revenue": 28628235793.0,
+    "revenue_unit": "unknown",
+    "features": [
+      {
+        "key": "MAINOKVED_CODE",
+        "label": "Основной ОКВЭД",
+        "value": "46.90",
+        "source": "df_Uid_data_hack.csv:row=48763;SYNTHETIC_U=U_225628;column=MAINOKVED_CODE",
+        "kind": "observed"
+      },
+      {
+        "key": "MAINOKVED_NAME",
+        "label": "Вид деятельности",
+        "value": "Торговля оптовая неспециализированная",
+        "source": "df_Uid_data_hack.csv:row=48763;SYNTHETIC_U=U_225628;column=MAINOKVED_NAME",
+        "kind": "observed"
+      },
+      {
+        "key": "REVENUE_COMPANY",
+        "label": "Годовая выручка (единица в источнике не указана)",
+        "value": "28628235793.0",
+        "source": "df_Uid_data_hack.csv:row=48763;SYNTHETIC_U=U_225628;column=REVENUE_COMPANY",
+        "kind": "observed"
+      },
+      {
+        "key": "CL_PRODUCT_LOA_MARK",
+        "label": "Отметка кредитного продукта",
+        "value": "0.0",
+        "source": "df_Uid_data_hack.csv:row=48763;SYNTHETIC_U=U_225628;column=CL_PRODUCT_LOA_MARK",
+        "kind": "observed"
+      },
+      {
+        "key": "CL_PRODUCT_DEP_MARK",
+        "label": "Отметка депозитного продукта",
+        "value": "0.0",
+        "source": "df_Uid_data_hack.csv:row=48763;SYNTHETIC_U=U_225628;column=CL_PRODUCT_DEP_MARK",
+        "kind": "observed"
+      },
+      {
+        "key": "CL_PRODUCT_LEA_MARK",
+        "label": "Отметка лизингового продукта",
+        "value": "1.0",
+        "source": "df_Uid_data_hack.csv:row=48763;SYNTHETIC_U=U_225628;column=CL_PRODUCT_LEA_MARK",
+        "kind": "observed"
+      },
+      {
+        "key": "CL_PRODUCT_GAR_MARK",
+        "label": "Отметка банковских гарантий",
+        "value": "0.0",
+        "source": "df_Uid_data_hack.csv:row=48763;SYNTHETIC_U=U_225628;column=CL_PRODUCT_GAR_MARK",
+        "kind": "observed"
+      },
+      {
+        "key": "CL_PRODUCT_RKO_MARK",
+        "label": "Отметка РКО",
+        "value": "1.0",
+        "source": "df_Uid_data_hack.csv:row=48763;SYNTHETIC_U=U_225628;column=CL_PRODUCT_RKO_MARK",
+        "kind": "observed"
+      },
+      {
+        "key": "FACTORING_MARK",
+        "label": "Отметка факторинга",
+        "value": "0.0",
+        "source": "df_Uid_data_hack.csv:row=48763;SYNTHETIC_U=U_225628;column=FACTORING_MARK",
+        "kind": "observed"
+      },
+      {
+        "key": "FTS_FLAG",
+        "label": "Отметка наличия информации ФТС",
+        "value": "0.0",
+        "source": "df_Uid_data_hack.csv:row=48763;SYNTHETIC_U=U_225628;column=FTS_FLAG",
+        "kind": "observed"
+      },
+      {
+        "key": "GROUP_ID",
+        "label": "Идентификатор группы в наборе",
+        "value": "group_132802_sb",
+        "source": "df_Uid_data_hack.csv:row=48763;SYNTHETIC_U=U_225628;column=GROUP_ID",
+        "kind": "observed"
+      },
+      {
+        "key": "REGION",
+        "label": "Регион регистрации",
+        "value": "Москва",
+        "source": "df_Uid_data_hack.csv:row=48763;SYNTHETIC_U=U_225628;column=REGION",
+        "kind": "observed"
+      },
+      {
+        "key": "CITY",
+        "label": "Город регистрации",
+        "value": "г. Москва",
+        "source": "df_Uid_data_hack.csv:row=48763;SYNTHETIC_U=U_225628;column=CITY",
+        "kind": "observed"
+      },
+      {
+        "key": "AMOUNT_WORKERS_FNS_GRADATION",
+        "label": "Градация числа работников ФНС",
+        "value": "16-100",
+        "source": "df_Uid_data_hack.csv:row=48763;SYNTHETIC_U=U_225628;column=AMOUNT_WORKERS_FNS_GRADATION",
+        "kind": "observed"
+      },
+      {
+        "key": "group_members_count",
+        "label": "Компаний с тем же GROUP_ID в наборе",
+        "value": 2,
+        "source": "df_Uid_data_hack.csv:row=48763;SYNTHETIC_U=U_225628;group-by=GROUP_ID",
+        "kind": "derived"
+      },
+      {
+        "key": "payment_counterparties_count",
+        "label": "Платежных связей с другими компаниями в наборе",
+        "value": 45,
+        "source": "df_Uid_payment_hack.csv;PAYER-or-BENEFICIARY=U_225628;distinct-other-ids;exclude-self",
+        "kind": "derived"
+      },
+      {
+        "key": "payment_known_counterparties_count",
+        "label": "Контрагентов с профилем в наборе",
+        "value": 16,
+        "source": "df_Uid_payment_hack.csv+df_Uid_data_hack.csv;company=U_225628",
+        "kind": "derived"
+      },
+      {
+        "key": "shared_person_companies_count",
+        "label": "Других компаний с общим обезличенным физлицом",
+        "value": 0,
+        "source": "df_Fid_Uid_link_hack.csv;SYNTHETIC_U=U_225628;shared-SYNTHETIC_F",
+        "kind": "derived"
+      }
+    ],
+    "unknowns": [
+      "Единица и отчетный год выручки не указаны; соответствие порогу 15 млрд ₽ требует подтверждения.",
+      "Размер, валюта, ставка и срок долга не известны; отметка продукта не равна задолженности.",
+      "Направление, объем и валюта внешней торговли не известны; страна ФТС не доказывает экспорт или импорт.",
+      "Юридический характер группы и связей физлиц неизвестен; владение и контроль не установлены.",
+      "Доля рынка и полный охват платежей неизвестны; PAY_AMT без единицы и периода."
+    ],
+    "synthetic": false
+  },
+  {
+    "id": "U_68157",
+    "name": "Компания U_68157",
+    "industry": "Прочие виды строительства жилых и нежилых зданий",
+    "okved": "41.20.9",
+    "revenue": 16231451089.0,
+    "revenue_unit": "unknown",
+    "features": [
+      {
+        "key": "MAINOKVED_CODE",
+        "label": "Основной ОКВЭД",
+        "value": "41.20.9",
+        "source": "df_Uid_data_hack.csv:row=16674;SYNTHETIC_U=U_68157;column=MAINOKVED_CODE",
+        "kind": "observed"
+      },
+      {
+        "key": "MAINOKVED_NAME",
+        "label": "Вид деятельности",
+        "value": "Прочие виды строительства жилых и нежилых зданий",
+        "source": "df_Uid_data_hack.csv:row=16674;SYNTHETIC_U=U_68157;column=MAINOKVED_NAME",
+        "kind": "observed"
+      },
+      {
+        "key": "REVENUE_COMPANY",
+        "label": "Годовая выручка (единица в источнике не указана)",
+        "value": "16231451089.0",
+        "source": "df_Uid_data_hack.csv:row=16674;SYNTHETIC_U=U_68157;column=REVENUE_COMPANY",
+        "kind": "observed"
+      },
+      {
+        "key": "CL_PRODUCT_LOA_MARK",
+        "label": "Отметка кредитного продукта",
+        "value": "1.0",
+        "source": "df_Uid_data_hack.csv:row=16674;SYNTHETIC_U=U_68157;column=CL_PRODUCT_LOA_MARK",
+        "kind": "observed"
+      },
+      {
+        "key": "CL_PRODUCT_DEP_MARK",
+        "label": "Отметка депозитного продукта",
+        "value": "0.0",
+        "source": "df_Uid_data_hack.csv:row=16674;SYNTHETIC_U=U_68157;column=CL_PRODUCT_DEP_MARK",
+        "kind": "observed"
+      },
+      {
+        "key": "CL_PRODUCT_LEA_MARK",
+        "label": "Отметка лизингового продукта",
+        "value": "1.0",
+        "source": "df_Uid_data_hack.csv:row=16674;SYNTHETIC_U=U_68157;column=CL_PRODUCT_LEA_MARK",
+        "kind": "observed"
+      },
+      {
+        "key": "CL_PRODUCT_GAR_MARK",
+        "label": "Отметка банковских гарантий",
+        "value": "1.0",
+        "source": "df_Uid_data_hack.csv:row=16674;SYNTHETIC_U=U_68157;column=CL_PRODUCT_GAR_MARK",
+        "kind": "observed"
+      },
+      {
+        "key": "CL_PRODUCT_RKO_MARK",
+        "label": "Отметка РКО",
+        "value": "1.0",
+        "source": "df_Uid_data_hack.csv:row=16674;SYNTHETIC_U=U_68157;column=CL_PRODUCT_RKO_MARK",
+        "kind": "observed"
+      },
+      {
+        "key": "FACTORING_MARK",
+        "label": "Отметка факторинга",
+        "value": "0.0",
+        "source": "df_Uid_data_hack.csv:row=16674;SYNTHETIC_U=U_68157;column=FACTORING_MARK",
+        "kind": "observed"
+      },
+      {
+        "key": "FTS_FLAG",
+        "label": "Отметка наличия информации ФТС",
+        "value": "0.0",
+        "source": "df_Uid_data_hack.csv:row=16674;SYNTHETIC_U=U_68157;column=FTS_FLAG",
+        "kind": "observed"
+      },
+      {
+        "key": "GROUP_ID",
+        "label": "Идентификатор группы в наборе",
+        "value": "group_134546_sb",
+        "source": "df_Uid_data_hack.csv:row=16674;SYNTHETIC_U=U_68157;column=GROUP_ID",
+        "kind": "observed"
+      },
+      {
+        "key": "REGION",
+        "label": "Регион регистрации",
+        "value": "Вологодская область",
+        "source": "df_Uid_data_hack.csv:row=16674;SYNTHETIC_U=U_68157;column=REGION",
+        "kind": "observed"
+      },
+      {
+        "key": "CITY",
+        "label": "Город регистрации",
+        "value": "г. Вологда",
+        "source": "df_Uid_data_hack.csv:row=16674;SYNTHETIC_U=U_68157;column=CITY",
+        "kind": "observed"
+      },
+      {
+        "key": "AMOUNT_WORKERS_FNS_GRADATION",
+        "label": "Градация числа работников ФНС",
+        "value": "101-250",
+        "source": "df_Uid_data_hack.csv:row=16674;SYNTHETIC_U=U_68157;column=AMOUNT_WORKERS_FNS_GRADATION",
+        "kind": "observed"
+      },
+      {
+        "key": "group_members_count",
+        "label": "Компаний с тем же GROUP_ID в наборе",
+        "value": 137,
+        "source": "df_Uid_data_hack.csv:row=16674;SYNTHETIC_U=U_68157;group-by=GROUP_ID",
+        "kind": "derived"
+      },
+      {
+        "key": "payment_counterparties_count",
+        "label": "Платежных связей с другими компаниями в наборе",
+        "value": 97,
+        "source": "df_Uid_payment_hack.csv;PAYER-or-BENEFICIARY=U_68157;distinct-other-ids;exclude-self",
+        "kind": "derived"
+      },
+      {
+        "key": "payment_known_counterparties_count",
+        "label": "Контрагентов с профилем в наборе",
+        "value": 43,
+        "source": "df_Uid_payment_hack.csv+df_Uid_data_hack.csv;company=U_68157",
+        "kind": "derived"
+      },
+      {
+        "key": "shared_person_companies_count",
+        "label": "Других компаний с общим обезличенным физлицом",
+        "value": 0,
+        "source": "df_Fid_Uid_link_hack.csv;SYNTHETIC_U=U_68157;shared-SYNTHETIC_F",
+        "kind": "derived"
+      }
+    ],
+    "unknowns": [
+      "Единица и отчетный год выручки не указаны; соответствие порогу 15 млрд ₽ требует подтверждения.",
+      "Размер, валюта, ставка и срок долга не известны; отметка продукта не равна задолженности.",
+      "Направление, объем и валюта внешней торговли не известны; страна ФТС не доказывает экспорт или импорт.",
+      "Юридический характер группы и связей физлиц неизвестен; владение и контроль не установлены.",
+      "Доля рынка и полный охват платежей неизвестны; PAY_AMT без единицы и периода."
+    ],
+    "synthetic": false
+  }
+]

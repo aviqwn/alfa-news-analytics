@@ -1,0 +1,21 @@
+{
+  "companies": 3,
+  "bank_chunks": 150,
+  "files": 12,
+  "coverage": {
+    "company_unique_ids": 85514,
+    "company_extra_rows_for_repeated_ids": 11,
+    "company_distinct_repeated_ids": 1,
+    "link_company_ids": 12307,
+    "link_ids_in_company_table": 4519,
+    "link_rows_with_known_company": 4629,
+    "payment_payer_unique": 163363,
+    "payment_beneficiary_unique": 115271,
+    "payment_payers_in_company_table": 59668,
+    "payment_beneficiaries_in_company_table": 53233,
+    "payment_rows_both_known": 389396,
+    "payment_self_edges": 27406,
+    "payment_duplicate_pairs": 17,
+    "group_unique_ids": 18098
+  }
+}

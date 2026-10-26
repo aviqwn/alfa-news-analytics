@@ -1,0 +1,8 @@
+# Optional, only for ingesting organizer datasets; not required to start the app.
+pypdf==6.10.0
+pandas==2.2.3
+numpy==2.3.5
+python-dateutil==2.9.0.post0
+pytz==2026.5
+tzdata==2026.5
+six==1.17.0

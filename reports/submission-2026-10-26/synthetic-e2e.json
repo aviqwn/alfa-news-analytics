@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "companies": 3,
+  "checks": [
+    "synthetic_only",
+    "company_personalization",
+    "analysis",
+    "missing_bank_adaptation",
+    "cache",
+    "followup_memory",
+    "saved_run",
+    "feedback",
+    "new_event"
+  ],
+  "llm_calls": 0,
+  "execution": "fresh_python_process",
+  "python": "3.12.14"
+}

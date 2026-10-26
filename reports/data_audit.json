@@ -1,0 +1,240 @@
+{
+  "df_Fid_Uid_link_hack": {
+    "rows": 12514,
+    "columns": [
+      "SYNTHETIC_F",
+      "CITY_NAME",
+      "RC_NAME",
+      "SYNTHETIC_U"
+    ],
+    "exact_duplicate_rows": 0,
+    "missing": {
+      "SYNTHETIC_F": 0,
+      "CITY_NAME": 14,
+      "RC_NAME": 14,
+      "SYNTHETIC_U": 0
+    },
+    "unique": {
+      "SYNTHETIC_F": 11120,
+      "CITY_NAME": 221,
+      "RC_NAME": 10,
+      "SYNTHETIC_U": 12307
+    }
+  },
+  "df_Uid_data_hack": {
+    "rows": 85525,
+    "columns": [
+      "SYNTHETIC_U",
+      "ORG_TYPE",
+      "OKFS_NAME",
+      "COMPANY_AGE_YEARS_GRADATION",
+      "ECO_MARK_LABEL",
+      "MAINOKVED_CODE",
+      "MAINOKVED_NAME",
+      "NEGATIVEMARK",
+      "AMOUNT_WORKERS_FNS_GRADATION",
+      "AMOUNT_WORKERS_SPARK_GRADATION",
+      "CL_TYPE",
+      "CL_PRODUCT_RKO_MARK",
+      "CL_PRODUCT_GAR_MARK",
+      "CL_PRODUCT_LOA_MARK",
+      "CL_PRODUCT_LEA_MARK",
+      "CL_PRODUCT_DEP_MARK",
+      "CL_PRODUCT_ZPP_MARK",
+      "FTS_FLAG",
+      "FTS_COUNTRY_NAME",
+      "FACTORING_MARK",
+      "REVENUE_COMPANY",
+      "GROUP_ID",
+      "CITY",
+      "REGION"
+    ],
+    "exact_duplicate_rows": 0,
+    "missing": {
+      "SYNTHETIC_U": 0,
+      "ORG_TYPE": 0,
+      "OKFS_NAME": 0,
+      "COMPANY_AGE_YEARS_GRADATION": 0,
+      "ECO_MARK_LABEL": 4157,
+      "MAINOKVED_CODE": 0,
+      "MAINOKVED_NAME": 0,
+      "NEGATIVEMARK": 0,
+      "AMOUNT_WORKERS_FNS_GRADATION": 0,
+      "AMOUNT_WORKERS_SPARK_GRADATION": 85357,
+      "CL_TYPE": 0,
+      "CL_PRODUCT_RKO_MARK": 0,
+      "CL_PRODUCT_GAR_MARK": 0,
+      "CL_PRODUCT_LOA_MARK": 0,
+      "CL_PRODUCT_LEA_MARK": 0,
+      "CL_PRODUCT_DEP_MARK": 0,
+      "CL_PRODUCT_ZPP_MARK": 0,
+      "FTS_FLAG": 0,
+      "FTS_COUNTRY_NAME": 77179,
+      "FACTORING_MARK": 0,
+      "REVENUE_COMPANY": 0,
+      "GROUP_ID": 0,
+      "CITY": 0,
+      "REGION": 0
+    },
+    "unique": {
+      "SYNTHETIC_U": 85514,
+      "ORG_TYPE": 1,
+      "OKFS_NAME": 12,
+      "COMPANY_AGE_YEARS_GRADATION": 4,
+      "ECO_MARK_LABEL": 4,
+      "MAINOKVED_CODE": 546,
+      "MAINOKVED_NAME": 536,
+      "NEGATIVEMARK": 2,
+      "AMOUNT_WORKERS_FNS_GRADATION": 4,
+      "AMOUNT_WORKERS_SPARK_GRADATION": 4,
+      "CL_TYPE": 3,
+      "CL_PRODUCT_RKO_MARK": 2,
+      "CL_PRODUCT_GAR_MARK": 2,
+      "CL_PRODUCT_LOA_MARK": 2,
+      "CL_PRODUCT_LEA_MARK": 2,
+      "CL_PRODUCT_DEP_MARK": 2,
+      "CL_PRODUCT_ZPP_MARK": 2,
+      "FTS_FLAG": 2,
+      "FTS_COUNTRY_NAME": 1392,
+      "FACTORING_MARK": 2,
+      "REVENUE_COMPANY": 83914,
+      "GROUP_ID": 18098,
+      "CITY": 267,
+      "REGION": 82
+    }
+  },
+  "df_Uid_payment_hack": {
+    "rows": 1380585,
+    "columns": [
+      "BENEFICIARY",
+      "PAYER",
+      "PAY_AMT",
+      "PAY_CNT"
+    ],
+    "exact_duplicate_rows": 1,
+    "missing": {
+      "BENEFICIARY": 0,
+      "PAYER": 0,
+      "PAY_AMT": 0,
+      "PAY_CNT": 0
+    },
+    "unique": {
+      "BENEFICIARY": 115271,
+      "PAYER": 163363,
+      "PAY_AMT": 79818,
+      "PAY_CNT": 1554
+    }
+  },
+  "coverage": {
+    "company_unique_ids": 85514,
+    "company_extra_rows_for_repeated_ids": 11,
+    "company_distinct_repeated_ids": 1,
+    "link_company_ids": 12307,
+    "link_ids_in_company_table": 4519,
+    "link_rows_with_known_company": 4629,
+    "payment_payer_unique": 163363,
+    "payment_beneficiary_unique": 115271,
+    "payment_payers_in_company_table": 59668,
+    "payment_beneficiaries_in_company_table": 53233,
+    "payment_rows_both_known": 389396,
+    "payment_self_edges": 27406,
+    "payment_duplicate_pairs": 17,
+    "group_unique_ids": 18098
+  },
+  "numeric": {
+    "REVENUE_COMPANY": {
+      "non_numeric": 0,
+      "min": 1000.0,
+      "median": 33583428.0,
+      "max": 105596467908.0,
+      "negative": 0,
+      "zero": 0,
+      "unit": "not specified in source"
+    },
+    "PAY_AMT": {
+      "non_numeric": 0,
+      "min": 1000.0,
+      "median": 212000.0,
+      "max": 1118581311000.0,
+      "negative": 0,
+      "zero": 0,
+      "unit": "not specified in source"
+    },
+    "PAY_CNT": {
+      "non_numeric": 0,
+      "min": 1.0,
+      "median": 5.0,
+      "max": 124671.0,
+      "negative": 0,
+      "zero": 0,
+      "unit": "count; aggregation period unspecified"
+    }
+  },
+  "flag_values": {
+    "NEGATIVEMARK": {
+      "0.0": 74449,
+      "1.0": 11076
+    },
+    "CL_PRODUCT_RKO_MARK": {
+      "0.0": 45862,
+      "1.0": 39663
+    },
+    "CL_PRODUCT_GAR_MARK": {
+      "0.0": 82737,
+      "1.0": 2788
+    },
+    "CL_PRODUCT_LOA_MARK": {
+      "0.0": 80580,
+      "1.0": 4945
+    },
+    "CL_PRODUCT_LEA_MARK": {
+      "0.0": 70514,
+      "1.0": 15011
+    },
+    "CL_PRODUCT_DEP_MARK": {
+      "0.0": 81242,
+      "1.0": 4283
+    },
+    "CL_PRODUCT_ZPP_MARK": {
+      "0.0": 59041,
+      "1.0": 26484
+    },
+    "FTS_FLAG": {
+      "0.0": 77161,
+      "1.0": 8364
+    },
+    "FACTORING_MARK": {
+      "0.0": 85312,
+      "1.0": 213
+    }
+  },
+  "inconsistencies": {
+    "fts_zero_with_country": 206,
+    "fts_one_without_country": 224
+  },
+  "duplicate_company_conflicts": {
+    "ORG_TYPE": 0,
+    "OKFS_NAME": 1,
+    "COMPANY_AGE_YEARS_GRADATION": 1,
+    "ECO_MARK_LABEL": 1,
+    "MAINOKVED_CODE": 1,
+    "MAINOKVED_NAME": 1,
+    "NEGATIVEMARK": 1,
+    "AMOUNT_WORKERS_FNS_GRADATION": 1,
+    "AMOUNT_WORKERS_SPARK_GRADATION": 1,
+    "CL_TYPE": 0,
+    "CL_PRODUCT_RKO_MARK": 0,
+    "CL_PRODUCT_GAR_MARK": 0,
+    "CL_PRODUCT_LOA_MARK": 0,
+    "CL_PRODUCT_LEA_MARK": 0,
+    "CL_PRODUCT_DEP_MARK": 0,
+    "CL_PRODUCT_ZPP_MARK": 0,
+    "FTS_FLAG": 0,
+    "FTS_COUNTRY_NAME": 0,
+    "FACTORING_MARK": 0,
+    "REVENUE_COMPANY": 1,
+    "GROUP_ID": 1,
+    "CITY": 1,
+    "REGION": 1
+  }
+}

@@ -10,7 +10,7 @@ runtime/*
 !runtime/.gitkeep
 tmp/*
 !tmp/.gitkeep
-# Исходники организаторов и производные данные: права распространения не уточнены.
+# Не добавлять новые материалы автоматически. Включённый набор разрешён для приватного GitHub жюри.
 *.pdf
 data/raw/*
 !data/raw/.gitkeep
@@ -26,3 +26,5 @@ reports/evaluation.json
 reports/browser-checks.json
 reports/external-source-check.json
 .taste-skill/
+
+outputs/

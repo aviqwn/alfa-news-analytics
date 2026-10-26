@@ -1,0 +1,25 @@
+name: Verify submission
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  python-and-docker:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Unit and HTTP tests (no API keys)
+        run: |
+          mkdir -p tmp
+          python -m unittest discover -s tests -v
+          python scripts/verify_submission.py
+      - name: Build and start synthetic Docker demo
+        run: DEMO_PORT=18080 docker compose -f compose.submission.yaml up --build -d --wait --wait-timeout 120
+      - name: Verify Docker scenario
+        run: python scripts/verify_submission.py --base-url http://127.0.0.1:18080
+      - name: Stop isolated demo
+        if: always()
+        run: docker compose -f compose.submission.yaml down -v

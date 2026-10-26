@@ -1,0 +1,334 @@
+[
+  {
+    "id": "1yLCBrIoyIsubLTEBvBHh6io48ysnW-wn",
+    "name": "ALFA_Russian_Steels_1К21PreviewUpdate_15Apr2021.pdf",
+    "kind": "analytics",
+    "url": "https://drive.google.com/file/d/1yLCBrIoyIsubLTEBvBHh6io48ysnW-wn/view",
+    "path": "data/raw/analytics/ALFA_Russian_Steels_1К21PreviewUpdate_15Apr2021.pdf",
+    "bytes": 6968001,
+    "sha256": "36eaaa58ae68d858db3600dbf3cc93d0bdefb8ca03f1f5cc154c532cc32e0c86",
+    "downloaded_on": "2026-10-22",
+    "pages": 4,
+    "text_characters": 0,
+    "extraction": "macos_vision_ocr",
+    "title": "Российская сталь: ралли цен продолжается (архив 2021)",
+    "date": "2021-04-15",
+    "period": "2021-04-15",
+    "date_precision": "day",
+    "date_verification": "visually checked page 1",
+    "valid_until": null,
+    "valid_until_reason": "Document does not specify an expiry date; relevance must be evaluated against the event date.",
+    "topics": [
+      "steel",
+      "commodities"
+    ],
+    "archived": true,
+    "manual_verification": {
+      "metadata_page": 1,
+      "title_and_date": true,
+      "verified_fragment_count": 0,
+      "full_text": false
+    },
+    "extraction_quality": {
+      "ocr_pages": 4,
+      "chunk_count": 12,
+      "limitations": "OCR may interleave columns and misread tables and numbers; only explicitly marked fragments were visually verified."
+    }
+  },
+  {
+    "id": "1HZDq3WGRFdzgm1TZ5hWL23Q3I9c2Eq64",
+    "name": "ALFA-7M26.pdf",
+    "kind": "analytics",
+    "url": "https://drive.google.com/file/d/1HZDq3WGRFdzgm1TZ5hWL23Q3I9c2Eq64/view",
+    "path": "data/raw/analytics/ALFA-7M26.pdf",
+    "bytes": 6458583,
+    "sha256": "3c64c1e43f3b46a795f9581967f2dbc8efb0994cb77ab82e95da180830e9ff8c",
+    "downloaded_on": "2026-10-22",
+    "pages": 4,
+    "text_characters": 0,
+    "extraction": "macos_vision_ocr",
+    "title": "Макростатистика 7М26: данные по рынку труда не подтверждают охлаждения экономики",
+    "date": "2026-09-07",
+    "period": "2026-09-07",
+    "date_precision": "day",
+    "date_verification": "visually checked page 1",
+    "valid_until": null,
+    "valid_until_reason": "Document does not specify an expiry date; relevance must be evaluated against the event date.",
+    "topics": [
+      "demand",
+      "labor",
+      "credit"
+    ],
+    "archived": false,
+    "manual_verification": {
+      "metadata_page": 1,
+      "title_and_date": true,
+      "verified_fragment_count": 1,
+      "full_text": false
+    },
+    "extraction_quality": {
+      "ocr_pages": 4,
+      "chunk_count": 11,
+      "limitations": "OCR may interleave columns and misread tables and numbers; only explicitly marked fragments were visually verified."
+    }
+  },
+  {
+    "id": "1riR1lhsb6EY1MwGMxdBlS_tI5ed9mIiz",
+    "name": "ALFA-consumption.pdf",
+    "kind": "analytics",
+    "url": "https://drive.google.com/file/d/1riR1lhsb6EY1MwGMxdBlS_tI5ed9mIiz/view",
+    "path": "data/raw/analytics/ALFA-consumption.pdf",
+    "bytes": 6658115,
+    "sha256": "807ee9925cf7d15ecffc72ad7142f9a83d342cd19690e12dd3b90aa2ba8ea1c6",
+    "downloaded_on": "2026-10-22",
+    "pages": 4,
+    "text_characters": 0,
+    "extraction": "macos_vision_ocr",
+    "title": "Потребление на пике",
+    "date": "2026-08-05",
+    "period": "2026-08-05",
+    "date_precision": "day",
+    "date_verification": "visually checked page 1",
+    "valid_until": null,
+    "valid_until_reason": "Document does not specify an expiry date; relevance must be evaluated against the event date.",
+    "topics": [
+      "demand",
+      "retail",
+      "labor"
+    ],
+    "archived": false,
+    "manual_verification": {
+      "metadata_page": 1,
+      "title_and_date": true,
+      "verified_fragment_count": 1,
+      "full_text": false
+    },
+    "extraction_quality": {
+      "ocr_pages": 4,
+      "chunk_count": 12,
+      "limitations": "OCR may interleave columns and misread tables and numbers; only explicitly marked fragments were visually verified."
+    }
+  },
+  {
+    "id": "1shHG89LtMgHT1_uEebHmQSFZe_zbeq7-",
+    "name": "ALFA-Macro_Insights-Policy_Rate_11Sep.pdf",
+    "kind": "analytics",
+    "url": "https://drive.google.com/file/d/1shHG89LtMgHT1_uEebHmQSFZe_zbeq7-/view",
+    "path": "data/raw/analytics/ALFA-Macro_Insights-Policy_Rate_11Sep.pdf",
+    "bytes": 6343186,
+    "sha256": "92a96805f2b720f76bd0c52d2491044812b38401ab62d0f4a9157b4ca81c49bb",
+    "downloaded_on": "2026-10-22",
+    "pages": 4,
+    "text_characters": 0,
+    "extraction": "macos_vision_ocr",
+    "title": "Ключевая ставка ЦБ РФ: ставка без изменения на 14,0%, риторика стала жестче",
+    "date": "2026-09-11",
+    "period": "2026-09-11",
+    "date_precision": "day",
+    "date_verification": "visually checked page 1",
+    "valid_until": null,
+    "valid_until_reason": "Document does not specify an expiry date; relevance must be evaluated against the event date.",
+    "topics": [
+      "rates",
+      "inflation",
+      "credit"
+    ],
+    "archived": false,
+    "manual_verification": {
+      "metadata_page": 1,
+      "title_and_date": true,
+      "verified_fragment_count": 1,
+      "full_text": false
+    },
+    "extraction_quality": {
+      "ocr_pages": 4,
+      "chunk_count": 12,
+      "limitations": "OCR may interleave columns and misread tables and numbers; only explicitly marked fragments were visually verified."
+    }
+  },
+  {
+    "id": "1khcHwoS0FkG9p_0J4XoHGaGq3B4V0ime",
+    "name": "ALFA-macro_stat1H26.pdf",
+    "kind": "analytics",
+    "url": "https://drive.google.com/file/d/1khcHwoS0FkG9p_0J4XoHGaGq3B4V0ime/view",
+    "path": "data/raw/analytics/ALFA-macro_stat1H26.pdf",
+    "bytes": 6100459,
+    "sha256": "84899553fadf3e49abac7074c7b7d2afc2fa5c70b7fde0bf4c3eabe3d7402266",
+    "downloaded_on": "2026-10-22",
+    "pages": 5,
+    "text_characters": 0,
+    "extraction": "macos_vision_ocr",
+    "title": "Макростатистика 1П26: слабый рост и прогноз ВВП",
+    "date": "2026-07-31",
+    "period": "2026-07-31",
+    "date_precision": "day",
+    "date_verification": "visually checked page 1",
+    "valid_until": null,
+    "valid_until_reason": "Document does not specify an expiry date; relevance must be evaluated against the event date.",
+    "topics": [
+      "demand",
+      "rates",
+      "fx"
+    ],
+    "archived": false,
+    "manual_verification": {
+      "metadata_page": 1,
+      "title_and_date": true,
+      "verified_fragment_count": 0,
+      "full_text": false
+    },
+    "extraction_quality": {
+      "ocr_pages": 5,
+      "chunk_count": 15,
+      "limitations": "OCR may interleave columns and misread tables and numbers; only explicitly marked fragments were visually verified."
+    }
+  },
+  {
+    "id": "1hq3Fhyz9ce_sRyGUQB1MdoHeQdfAJfhK",
+    "name": "FI_Strategy_3Q26_22072026.pdf",
+    "kind": "analytics",
+    "url": "https://drive.google.com/file/d/1hq3Fhyz9ce_sRyGUQB1MdoHeQdfAJfhK/view",
+    "path": "data/raw/analytics/FI_Strategy_3Q26_22072026.pdf",
+    "bytes": 34890230,
+    "sha256": "6c3a4882ee784b608880693d8ba2b62d0ba2236e34b404179adaab909c6dd046",
+    "downloaded_on": "2026-10-22",
+    "pages": 27,
+    "text_characters": 0,
+    "extraction": "macos_vision_ocr",
+    "title": "Тактический взгляд на 3-й квартал 2026: время собирать камни",
+    "date": "2026-07-22",
+    "period": "2026-07-22",
+    "date_precision": "day",
+    "date_verification": "visually checked page 1",
+    "valid_until": null,
+    "valid_until_reason": "Document does not specify an expiry date; relevance must be evaluated against the event date.",
+    "topics": [
+      "rates",
+      "bonds",
+      "fx"
+    ],
+    "archived": false,
+    "manual_verification": {
+      "metadata_page": 1,
+      "title_and_date": true,
+      "verified_fragment_count": 0,
+      "full_text": false
+    },
+    "extraction_quality": {
+      "ocr_pages": 27,
+      "chunk_count": 54,
+      "limitations": "OCR may interleave columns and misread tables and numbers; only explicitly marked fragments were visually verified."
+    }
+  },
+  {
+    "id": "1a7TXOCHARfKzUR0hn9Cm9gQSrIldxTDE",
+    "name": "Gold_digest_August26.pdf",
+    "kind": "analytics",
+    "url": "https://drive.google.com/file/d/1a7TXOCHARfKzUR0hn9Cm9gQSrIldxTDE/view",
+    "path": "data/raw/analytics/Gold_digest_August26.pdf",
+    "bytes": 8613150,
+    "sha256": "4159576a6223985dd318b6f5a04ad4aeb888f47a6c266d0e9ee9eb35bf01e245",
+    "downloaded_on": "2026-10-22",
+    "pages": 8,
+    "text_characters": 0,
+    "extraction": "macos_vision_ocr",
+    "title": "Обзор рынка золота, август 2026",
+    "date": null,
+    "period": "2026-08",
+    "date_precision": "month",
+    "date_verification": "visually checked page 1",
+    "valid_until": null,
+    "valid_until_reason": "Document does not specify an expiry date; relevance must be evaluated against the event date.",
+    "topics": [
+      "gold",
+      "commodities",
+      "fx"
+    ],
+    "archived": false,
+    "manual_verification": {
+      "metadata_page": 1,
+      "title_and_date": true,
+      "verified_fragment_count": 0,
+      "full_text": false
+    },
+    "extraction_quality": {
+      "ocr_pages": 8,
+      "chunk_count": 14,
+      "limitations": "OCR may interleave columns and misread tables and numbers; only explicitly marked fragments were visually verified."
+    }
+  },
+  {
+    "id": "19iW3Ph8_wO0HHQY7Ik4lTfC3jRc9gjWV",
+    "name": "Inflation_tracker_02.pdf",
+    "kind": "analytics",
+    "url": "https://drive.google.com/file/d/19iW3Ph8_wO0HHQY7Ik4lTfC3jRc9gjWV/view",
+    "path": "data/raw/analytics/Inflation_tracker_02.pdf",
+    "bytes": 3385668,
+    "sha256": "09d5537f6a52f5f8f2d9518ed9171e794382972ce38cbdc4bd3099b2db129d0c",
+    "downloaded_on": "2026-10-22",
+    "pages": 3,
+    "text_characters": 0,
+    "extraction": "macos_vision_ocr",
+    "title": "Инфляция 25–31 августа: основные выводы",
+    "date": "2026-09-02",
+    "period": "2026-09-02",
+    "date_precision": "day",
+    "date_verification": "visually checked page 1",
+    "valid_until": null,
+    "valid_until_reason": "Document does not specify an expiry date; relevance must be evaluated against the event date.",
+    "topics": [
+      "inflation",
+      "fuel",
+      "fx"
+    ],
+    "archived": false,
+    "manual_verification": {
+      "metadata_page": 1,
+      "title_and_date": true,
+      "verified_fragment_count": 1,
+      "full_text": false
+    },
+    "extraction_quality": {
+      "ocr_pages": 3,
+      "chunk_count": 9,
+      "limitations": "OCR may interleave columns and misread tables and numbers; only explicitly marked fragments were visually verified."
+    }
+  },
+  {
+    "id": "1bPzix_332N2CyMY0tqCHuYtGsfJWnFGv",
+    "name": "Бонд_Бриф_14092026.pdf",
+    "kind": "analytics",
+    "url": "https://drive.google.com/file/d/1bPzix_332N2CyMY0tqCHuYtGsfJWnFGv/view",
+    "path": "data/raw/analytics/Бонд_Бриф_14092026.pdf",
+    "bytes": 7463613,
+    "sha256": "87dc17520e2a744f95580ee2ec42461d0ee6ebf19e752622a49c49600cb1b055",
+    "downloaded_on": "2026-10-22",
+    "pages": 5,
+    "text_characters": 0,
+    "extraction": "macos_vision_ocr",
+    "title": "Бонд Бриф: итоги недели",
+    "date": "2026-09-14",
+    "period": "2026-09-14",
+    "date_precision": "day",
+    "date_verification": "visually checked page 1",
+    "valid_until": null,
+    "valid_until_reason": "Document does not specify an expiry date; relevance must be evaluated against the event date.",
+    "topics": [
+      "rates",
+      "bonds",
+      "credit"
+    ],
+    "archived": false,
+    "manual_verification": {
+      "metadata_page": 1,
+      "title_and_date": true,
+      "verified_fragment_count": 0,
+      "full_text": false
+    },
+    "extraction_quality": {
+      "ocr_pages": 5,
+      "chunk_count": 11,
+      "limitations": "OCR may interleave columns and misread tables and numbers; only explicitly marked fragments were visually verified."
+    }
+  }
+]

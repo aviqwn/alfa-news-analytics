@@ -1,0 +1,15 @@
+{
+  "success": false,
+  "date": "2026-10-22T16:11:52.653878+00:00",
+  "model_id": "google/gemma-4-26b-a4b-it:free",
+  "usage": null,
+  "latency_ms": 5682,
+  "error_code": "provider_rate_limit",
+  "provider": "OpenRouter",
+  "http_status": 429,
+  "requests_made": 1,
+  "automatic_retries": 0,
+  "agent_mode": "test",
+  "actual_tokens_known": false,
+  "cost_rub": null
+}

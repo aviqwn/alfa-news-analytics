@@ -1,0 +1,78 @@
+{
+  "checked_at": "2026-10-22T16:05:09.442Z",
+  "checks": [
+    {
+      "name": "feed loaded",
+      "passed": true,
+      "detail": "API-backed events"
+    },
+    {
+      "name": "three profiles",
+      "passed": true,
+      "detail": [
+        "U_5639",
+        "U_225628",
+        "U_68157"
+      ]
+    },
+    {
+      "name": "company changes relevance",
+      "passed": true,
+      "detail": {
+        "reasonsBefore": "Почему это в вашей ленте\n\nВ профиле есть кредитный продукт: условия финансирования требуют проверки · Есть депозитный продукт: важны условия размещения средств · Контекст: Компания U_5639 · Генеральный директор",
+        "reasonsAfter": "Почему это в вашей ленте\n\nОсновной вид деятельности — торговля; изменение спроса может менять оборот · Спрос и цепочки поставок важны для управленческого горизонта · Контекст: Компания U_225628 · Генеральный директор"
+      }
+    },
+    {
+      "name": "analysis sections",
+      "passed": true,
+      "detail": "facts/bank/interpretation displayed"
+    },
+    {
+      "name": "followup",
+      "passed": true,
+      "detail": "Contextual response displayed"
+    },
+    {
+      "name": "feedback stored",
+      "passed": true,
+      "detail": "API accepted rating"
+    },
+    {
+      "name": "empty search state",
+      "passed": true,
+      "detail": "No fabricated rows"
+    },
+    {
+      "name": "unseen event full flow",
+      "passed": true,
+      "detail": "No source code change"
+    },
+    {
+      "name": "persistent entry",
+      "passed": true,
+      "detail": "Home entry and sidebar"
+    },
+    {
+      "name": "no horizontal overflow 768",
+      "passed": true,
+      "detail": "Viewport width"
+    },
+    {
+      "name": "no horizontal overflow 390",
+      "passed": true,
+      "detail": "Viewport width"
+    },
+    {
+      "name": "analysis no overflow 390",
+      "passed": true,
+      "detail": "Mobile detail"
+    },
+    {
+      "name": "no JS/console errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": []
+}

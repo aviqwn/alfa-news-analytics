@@ -1,0 +1,315 @@
+{
+  "version": 1,
+  "source": "organizer-provided Google Drive folders from case PDF pages 15 and 17",
+  "files": [
+    {
+      "id": "1ZJCiqgY1ma4iQ1_ltabtUuaFIBkrqnOe",
+      "name": "df_Fid_Uid_link_hack.csv",
+      "kind": "companies",
+      "url": "https://drive.google.com/file/d/1ZJCiqgY1ma4iQ1_ltabtUuaFIBkrqnOe/view",
+      "path": "data/raw/companies/df_Fid_Uid_link_hack.csv",
+      "bytes": 697194,
+      "sha256": "3d9c718e2a87304f48bbc7447607116bb8e4bd61dded70b0a1d0558f086a1b58",
+      "downloaded_on": "2026-10-22"
+    },
+    {
+      "id": "12H7sbLwBcpur0fKaGHPqwPwfXfgQq10b",
+      "name": "df_Uid_data_hack.csv",
+      "kind": "companies",
+      "url": "https://drive.google.com/file/d/12H7sbLwBcpur0fKaGHPqwPwfXfgQq10b/view",
+      "path": "data/raw/companies/df_Uid_data_hack.csv",
+      "bytes": 31414716,
+      "sha256": "cb48983806ce7ca0ae045a40c9627ccbe47cc72bfb54058db04df2386da4a983",
+      "downloaded_on": "2026-10-22"
+    },
+    {
+      "id": "1zkvWkAS0kZqijD-og_0Cv3o01SoUMY_Z",
+      "name": "df_Uid_payment_hack.csv",
+      "kind": "companies",
+      "url": "https://drive.google.com/file/d/1zkvWkAS0kZqijD-og_0Cv3o01SoUMY_Z/view",
+      "path": "data/raw/companies/df_Uid_payment_hack.csv",
+      "bytes": 38752490,
+      "sha256": "30095f75bead1a1dac0d7232b0da09a326b7ef643ee3b77b36ad3b4458a1cab3",
+      "downloaded_on": "2026-10-22"
+    },
+    {
+      "id": "1yLCBrIoyIsubLTEBvBHh6io48ysnW-wn",
+      "name": "ALFA_Russian_Steels_1К21PreviewUpdate_15Apr2021.pdf",
+      "kind": "analytics",
+      "url": "https://drive.google.com/file/d/1yLCBrIoyIsubLTEBvBHh6io48ysnW-wn/view",
+      "path": "data/raw/analytics/ALFA_Russian_Steels_1К21PreviewUpdate_15Apr2021.pdf",
+      "bytes": 6968001,
+      "sha256": "36eaaa58ae68d858db3600dbf3cc93d0bdefb8ca03f1f5cc154c532cc32e0c86",
+      "downloaded_on": "2026-10-22",
+      "pages": 4,
+      "text_characters": 0,
+      "extraction": "image_only"
+    },
+    {
+      "id": "1HZDq3WGRFdzgm1TZ5hWL23Q3I9c2Eq64",
+      "name": "ALFA-7M26.pdf",
+      "kind": "analytics",
+      "url": "https://drive.google.com/file/d/1HZDq3WGRFdzgm1TZ5hWL23Q3I9c2Eq64/view",
+      "path": "data/raw/analytics/ALFA-7M26.pdf",
+      "bytes": 6458583,
+      "sha256": "3c64c1e43f3b46a795f9581967f2dbc8efb0994cb77ab82e95da180830e9ff8c",
+      "downloaded_on": "2026-10-22",
+      "pages": 4,
+      "text_characters": 0,
+      "extraction": "image_only"
+    },
+    {
+      "id": "1riR1lhsb6EY1MwGMxdBlS_tI5ed9mIiz",
+      "name": "ALFA-consumption.pdf",
+      "kind": "analytics",
+      "url": "https://drive.google.com/file/d/1riR1lhsb6EY1MwGMxdBlS_tI5ed9mIiz/view",
+      "path": "data/raw/analytics/ALFA-consumption.pdf",
+      "bytes": 6658115,
+      "sha256": "807ee9925cf7d15ecffc72ad7142f9a83d342cd19690e12dd3b90aa2ba8ea1c6",
+      "downloaded_on": "2026-10-22",
+      "pages": 4,
+      "text_characters": 0,
+      "extraction": "image_only"
+    },
+    {
+      "id": "1shHG89LtMgHT1_uEebHmQSFZe_zbeq7-",
+      "name": "ALFA-Macro_Insights-Policy_Rate_11Sep.pdf",
+      "kind": "analytics",
+      "url": "https://drive.google.com/file/d/1shHG89LtMgHT1_uEebHmQSFZe_zbeq7-/view",
+      "path": "data/raw/analytics/ALFA-Macro_Insights-Policy_Rate_11Sep.pdf",
+      "bytes": 6343186,
+      "sha256": "92a96805f2b720f76bd0c52d2491044812b38401ab62d0f4a9157b4ca81c49bb",
+      "downloaded_on": "2026-10-22",
+      "pages": 4,
+      "text_characters": 0,
+      "extraction": "image_only"
+    },
+    {
+      "id": "1khcHwoS0FkG9p_0J4XoHGaGq3B4V0ime",
+      "name": "ALFA-macro_stat1H26.pdf",
+      "kind": "analytics",
+      "url": "https://drive.google.com/file/d/1khcHwoS0FkG9p_0J4XoHGaGq3B4V0ime/view",
+      "path": "data/raw/analytics/ALFA-macro_stat1H26.pdf",
+      "bytes": 6100459,
+      "sha256": "84899553fadf3e49abac7074c7b7d2afc2fa5c70b7fde0bf4c3eabe3d7402266",
+      "downloaded_on": "2026-10-22",
+      "pages": 5,
+      "text_characters": 0,
+      "extraction": "image_only"
+    },
+    {
+      "id": "1hq3Fhyz9ce_sRyGUQB1MdoHeQdfAJfhK",
+      "name": "FI_Strategy_3Q26_22072026.pdf",
+      "kind": "analytics",
+      "url": "https://drive.google.com/file/d/1hq3Fhyz9ce_sRyGUQB1MdoHeQdfAJfhK/view",
+      "path": "data/raw/analytics/FI_Strategy_3Q26_22072026.pdf",
+      "bytes": 34890230,
+      "sha256": "6c3a4882ee784b608880693d8ba2b62d0ba2236e34b404179adaab909c6dd046",
+      "downloaded_on": "2026-10-22",
+      "pages": 27,
+      "text_characters": 0,
+      "extraction": "image_only"
+    },
+    {
+      "id": "1a7TXOCHARfKzUR0hn9Cm9gQSrIldxTDE",
+      "name": "Gold_digest_August26.pdf",
+      "kind": "analytics",
+      "url": "https://drive.google.com/file/d/1a7TXOCHARfKzUR0hn9Cm9gQSrIldxTDE/view",
+      "path": "data/raw/analytics/Gold_digest_August26.pdf",
+      "bytes": 8613150,
+      "sha256": "4159576a6223985dd318b6f5a04ad4aeb888f47a6c266d0e9ee9eb35bf01e245",
+      "downloaded_on": "2026-10-22",
+      "pages": 8,
+      "text_characters": 0,
+      "extraction": "image_only"
+    },
+    {
+      "id": "19iW3Ph8_wO0HHQY7Ik4lTfC3jRc9gjWV",
+      "name": "Inflation_tracker_02.pdf",
+      "kind": "analytics",
+      "url": "https://drive.google.com/file/d/19iW3Ph8_wO0HHQY7Ik4lTfC3jRc9gjWV/view",
+      "path": "data/raw/analytics/Inflation_tracker_02.pdf",
+      "bytes": 3385668,
+      "sha256": "09d5537f6a52f5f8f2d9518ed9171e794382972ce38cbdc4bd3099b2db129d0c",
+      "downloaded_on": "2026-10-22",
+      "pages": 3,
+      "text_characters": 0,
+      "extraction": "image_only"
+    },
+    {
+      "id": "1bPzix_332N2CyMY0tqCHuYtGsfJWnFGv",
+      "name": "Бонд_Бриф_14092026.pdf",
+      "kind": "analytics",
+      "url": "https://drive.google.com/file/d/1bPzix_332N2CyMY0tqCHuYtGsfJWnFGv/view",
+      "path": "data/raw/analytics/Бонд_Бриф_14092026.pdf",
+      "bytes": 7463613,
+      "sha256": "87dc17520e2a744f95580ee2ec42461d0ee6ebf19e752622a49c49600cb1b055",
+      "downloaded_on": "2026-10-22",
+      "pages": 5,
+      "text_characters": 0,
+      "extraction": "image_only"
+    }
+  ],
+  "local_derivatives": [
+    {
+      "path": "data/processed/companies.json",
+      "sha256": "c2e3a628b53430028b0c50f1548b54dce4181386e9a394e8108a1bf33ad7ea68",
+      "bytes": 18926
+    },
+    {
+      "path": "data/processed/bank_chunks.json",
+      "sha256": "80a87de1ab529a0974018c18487b98695bf99f1f50cb61e5ca0bea8e72edf426",
+      "bytes": 480896
+    },
+    {
+      "path": "data/processed/bank_documents.json",
+      "sha256": "104bcc053a66943b968f206494e39fb9469a9fb80e377aa3214479c545afc7fd",
+      "bytes": 12058
+    },
+    {
+      "path": "data/raw/manual_bank_annotations.json",
+      "sha256": "f65a56e4b817924477c3327f74c71d7ecf7f0cca9f15b5a97bff8c5c3332ade3",
+      "bytes": 2379
+    },
+    {
+      "path": "data/processed/ocr/ALFA-7M26.json",
+      "sha256": "39f93e014b9b5498ec3b3d70bd8e3410e3458891388ead3d5e0288e29a796b83",
+      "bytes": 21873
+    },
+    {
+      "path": "data/processed/ocr/ALFA-Macro_Insights-Policy_Rate_11Sep.json",
+      "sha256": "5e20198ceba46ea280bc8b92b2512951a7e36774b647039473a77cc948ce9d5f",
+      "bytes": 21652
+    },
+    {
+      "path": "data/processed/ocr/ALFA-consumption.json",
+      "sha256": "c886b182745b368e98e24e415137766519f2119b32dbdcc0227d6edac27efff3",
+      "bytes": 23643
+    },
+    {
+      "path": "data/processed/ocr/ALFA-macro_stat1H26.json",
+      "sha256": "8f868e473f8ec21c8884c5bcc0d691a1007dde44f12a13d6897fbb56ff2a44ab",
+      "bytes": 31485
+    },
+    {
+      "path": "data/processed/ocr/ALFA_Russian_Steels_1К21PreviewUpdate_15Apr2021.json",
+      "sha256": "b2ac1cfd3b973e39bee9d78e2768c897a9e2fff09a7cfcf557e18ef7da5f69ae",
+      "bytes": 24956
+    },
+    {
+      "path": "data/processed/ocr/FI_Strategy_3Q26_22072026.json",
+      "sha256": "8d5a9fb6435e1baa0e46638636b74dcd13286609923a380136a6fa416e2f13b3",
+      "bytes": 96715
+    },
+    {
+      "path": "data/processed/ocr/Gold_digest_August26.json",
+      "sha256": "9f339fb9f7e8c713f6c7d1e7edbf8b0bd12f876b155c78ad62b414fab8dc8c79",
+      "bytes": 27740
+    },
+    {
+      "path": "data/processed/ocr/Inflation_tracker_02.json",
+      "sha256": "5cd9e7644e94341cbfe4f8b7e6063d1103184a3feda23670a3479ebe80d552b4",
+      "bytes": 15058
+    },
+    {
+      "path": "data/processed/ocr/Бонд_Бриф_14092026.json",
+      "sha256": "a6cbbf2cfcd559ff1bb4ab2b311158fefc461798507760814201c7327f07f7eb",
+      "bytes": 21922
+    },
+    {
+      "path": "data/processed/ocr/ALFA-7M26.json.first.png",
+      "sha256": "00da40e45dfa8c934228ae4b618ab16eed0d380441c29ad507113a6f9a8faf56",
+      "bytes": 3254091
+    },
+    {
+      "path": "data/processed/ocr/ALFA-Macro_Insights-Policy_Rate_11Sep.json.first.png",
+      "sha256": "d583d8b13bf0758578673d613afabf8aea510f9ca449c829b500a7f3b1986038",
+      "bytes": 4422415
+    },
+    {
+      "path": "data/processed/ocr/ALFA-consumption.json.first.png",
+      "sha256": "cd239d313ce8834f0574c402fd194a9e22d5f1f6854670bc2905bd6e37acbe21",
+      "bytes": 3114620
+    },
+    {
+      "path": "data/processed/ocr/ALFA-macro_stat1H26.json.first.png",
+      "sha256": "5dc7c0779cc56036a31de250108ab7ed055f3287a105034798cb2cf9f9800d9f",
+      "bytes": 5181270
+    },
+    {
+      "path": "data/processed/ocr/ALFA_Russian_Steels_1К21PreviewUpdate_15Apr2021.json.first.png",
+      "sha256": "348df2b0c06738a4d77efab570f80e141d3e8ee7a96c232ef1c1385541f0f41b",
+      "bytes": 4141285
+    },
+    {
+      "path": "data/processed/ocr/FI_Strategy_3Q26_22072026.json.first.png",
+      "sha256": "c248cff10afaa6f848d595dfd0a0a9362df6be177292cf8b5d93da175775629a",
+      "bytes": 597167
+    },
+    {
+      "path": "data/processed/ocr/Gold_digest_August26.json.first.png",
+      "sha256": "18bdbb3b6bf1ebf13140b777cabf745bb6d8f1c5cb27a96c0abf160fb41e76a5",
+      "bytes": 11447838
+    },
+    {
+      "path": "data/processed/ocr/Inflation_tracker_02.json.first.png",
+      "sha256": "7e4cad1ca945c5b74c4c1b463ad18dbb3dc13597dd4a761f54046c7e25552704",
+      "bytes": 4889707
+    },
+    {
+      "path": "data/processed/ocr/Бонд_Бриф_14092026.json.first.png",
+      "sha256": "ab37b0444d0619a50df93ba48cadfd126b9e90f28d37e6f1d5cc129a1eae3aee",
+      "bytes": 3245256
+    },
+    {
+      "path": "data/processed/bank_text/ALFA-7M26.txt",
+      "sha256": "47eb9ac0b7dc009b574c6fc6592b1d962eb40b6315b4d674e879a0e4f1da4138",
+      "bytes": 66
+    },
+    {
+      "path": "data/processed/bank_text/ALFA-Macro_Insights-Policy_Rate_11Sep.txt",
+      "sha256": "47eb9ac0b7dc009b574c6fc6592b1d962eb40b6315b4d674e879a0e4f1da4138",
+      "bytes": 66
+    },
+    {
+      "path": "data/processed/bank_text/ALFA-consumption.txt",
+      "sha256": "47eb9ac0b7dc009b574c6fc6592b1d962eb40b6315b4d674e879a0e4f1da4138",
+      "bytes": 66
+    },
+    {
+      "path": "data/processed/bank_text/ALFA-macro_stat1H26.txt",
+      "sha256": "336b4bbdd6c0075b074304390072cc6660836082bb56575e5252a7d97248d258",
+      "bytes": 83
+    },
+    {
+      "path": "data/processed/bank_text/ALFA_Russian_Steels_1К21PreviewUpdate_15Apr2021.txt",
+      "sha256": "47eb9ac0b7dc009b574c6fc6592b1d962eb40b6315b4d674e879a0e4f1da4138",
+      "bytes": 66
+    },
+    {
+      "path": "data/processed/bank_text/FI_Strategy_3Q26_22072026.txt",
+      "sha256": "af17f63197a6a56605413b77b9c09b66ffc960781d6b6a762c2d2dae043ada21",
+      "bytes": 475
+    },
+    {
+      "path": "data/processed/bank_text/Gold_digest_August26.txt",
+      "sha256": "fa05e6b5477cb95b1bbf9541fcb2a835d9c7afae00d1f57af4696128345dfe65",
+      "bytes": 134
+    },
+    {
+      "path": "data/processed/bank_text/Inflation_tracker_02.txt",
+      "sha256": "8291d9c881b54fb1be583713975f66c0c9b6f8ca2f9409edb36f599c6202948b",
+      "bytes": 49
+    },
+    {
+      "path": "data/processed/bank_text/Бонд_Бриф_14092026.txt",
+      "sha256": "336b4bbdd6c0075b074304390072cc6660836082bb56575e5252a7d97248d258",
+      "bytes": 83
+    },
+    {
+      "path": "reports/data_audit.json",
+      "sha256": "f1411d2546d73d5d4a1a091c76a95433ed7d70cd60a005c1550b667fee9c3b8c",
+      "bytes": 5556
+    }
+  ]
+}

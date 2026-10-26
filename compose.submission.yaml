@@ -1,0 +1,19 @@
+# Reproducible offline jury scenario. Does not load .env or call an LLM.
+services:
+  app:
+    build: .
+    ports:
+      - "127.0.0.1:${DEMO_PORT:-8000}:8000"
+    environment:
+      APP_MODE: test
+      APP_DATA_MODE: synthetic
+      APP_TOKEN: local-demo-only-change-before-sharing
+      APP_DB_PATH: runtime/submission.sqlite
+    volumes:
+      - submission-runtime:/app/runtime
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+volumes:
+  submission-runtime:

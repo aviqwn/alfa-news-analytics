@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-22",
+  "provider": "OpenRouter",
+  "model_id": "google/gemma-4-26b-a4b-it:free",
+  "configured_mode": "test",
+  "test_command": "python3 -m unittest discover -s tests -v",
+  "tests_run": 53,
+  "result": "passed",
+  "test_scope": "Unit, regression and temporary loopback HTTP tests; all LLM calls mocked",
+  "routing_checks": [
+    "Exact free endpoint/model/name allowlist",
+    "Paid model ID, automatic model router and wrong model mapping rejected before network access",
+    "Provider fallback disabled and maximum token/request/image prices fixed to zero",
+    "No automatic retry or model switch after payment-required or rate-limit errors"
+  ],
+  "api_key_present": true,
+  "live_api_requests_made": 1,
+  "live_integration_verified": false,
+  "remaining": "One connectivity probe returned HTTP 429; no retry. Agent stays in test mode."
+}

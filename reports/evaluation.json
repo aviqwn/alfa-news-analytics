@@ -1,0 +1,585 @@
+{
+  "checked_at": "2026-10-22T16:05:05.531927+00:00",
+  "mode": "test",
+  "profiles": 3,
+  "runs": 36,
+  "valid_citation_runs": 36,
+  "exact_bank_quote_runs": 36,
+  "runs_with_bank": 27,
+  "adaptive_runs": 9,
+  "latency_ms": {
+    "median": 19.0,
+    "max": 45,
+    "p95": 42
+  },
+  "api_requests": 0,
+  "api_tokens": 0,
+  "cost_rub": null,
+  "rankings": [
+    {
+      "company": "U_5639",
+      "role": "ceo",
+      "ranking": [
+        {
+          "id": "demo-rates",
+          "score": 87
+        },
+        {
+          "id": "demo-demand",
+          "score": 82
+        },
+        {
+          "id": "demo-fx",
+          "score": 72
+        },
+        {
+          "id": "demo-steel",
+          "score": 47
+        }
+      ]
+    },
+    {
+      "company": "U_5639",
+      "role": "cfo",
+      "ranking": [
+        {
+          "id": "demo-rates",
+          "score": 99
+        },
+        {
+          "id": "demo-fx",
+          "score": 72
+        },
+        {
+          "id": "demo-demand",
+          "score": 67
+        },
+        {
+          "id": "demo-steel",
+          "score": 32
+        }
+      ]
+    },
+    {
+      "company": "U_5639",
+      "role": "treasury",
+      "ranking": [
+        {
+          "id": "demo-rates",
+          "score": 99
+        },
+        {
+          "id": "demo-fx",
+          "score": 72
+        },
+        {
+          "id": "demo-demand",
+          "score": 67
+        },
+        {
+          "id": "demo-steel",
+          "score": 32
+        }
+      ]
+    },
+    {
+      "company": "U_225628",
+      "role": "ceo",
+      "ranking": [
+        {
+          "id": "demo-demand",
+          "score": 82
+        },
+        {
+          "id": "demo-steel",
+          "score": 47
+        },
+        {
+          "id": "demo-fx",
+          "score": 32
+        },
+        {
+          "id": "demo-rates",
+          "score": 32
+        }
+      ]
+    },
+    {
+      "company": "U_225628",
+      "role": "cfo",
+      "ranking": [
+        {
+          "id": "demo-demand",
+          "score": 67
+        },
+        {
+          "id": "demo-rates",
+          "score": 47
+        },
+        {
+          "id": "demo-fx",
+          "score": 32
+        },
+        {
+          "id": "demo-steel",
+          "score": 32
+        }
+      ]
+    },
+    {
+      "company": "U_225628",
+      "role": "treasury",
+      "ranking": [
+        {
+          "id": "demo-demand",
+          "score": 67
+        },
+        {
+          "id": "demo-rates",
+          "score": 47
+        },
+        {
+          "id": "demo-fx",
+          "score": 32
+        },
+        {
+          "id": "demo-steel",
+          "score": 32
+        }
+      ]
+    },
+    {
+      "company": "U_68157",
+      "role": "ceo",
+      "ranking": [
+        {
+          "id": "demo-steel",
+          "score": 85
+        },
+        {
+          "id": "demo-rates",
+          "score": 67
+        },
+        {
+          "id": "demo-demand",
+          "score": 47
+        },
+        {
+          "id": "demo-fx",
+          "score": 32
+        }
+      ]
+    },
+    {
+      "company": "U_68157",
+      "role": "cfo",
+      "ranking": [
+        {
+          "id": "demo-rates",
+          "score": 82
+        },
+        {
+          "id": "demo-steel",
+          "score": 70
+        },
+        {
+          "id": "demo-demand",
+          "score": 32
+        },
+        {
+          "id": "demo-fx",
+          "score": 32
+        }
+      ]
+    },
+    {
+      "company": "U_68157",
+      "role": "treasury",
+      "ranking": [
+        {
+          "id": "demo-rates",
+          "score": 82
+        },
+        {
+          "id": "demo-steel",
+          "score": 70
+        },
+        {
+          "id": "demo-demand",
+          "score": 32
+        },
+        {
+          "id": "demo-fx",
+          "score": 32
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "company": "U_5639",
+      "event": "demo-rates",
+      "role": "ceo",
+      "duration_ms": 20,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_5639",
+      "event": "demo-demand",
+      "role": "ceo",
+      "duration_ms": 21,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_5639",
+      "event": "demo-fx",
+      "role": "ceo",
+      "duration_ms": 21,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_5639",
+      "event": "demo-steel",
+      "role": "ceo",
+      "duration_ms": 45,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": false,
+      "adaptive": true
+    },
+    {
+      "company": "U_5639",
+      "event": "demo-rates",
+      "role": "cfo",
+      "duration_ms": 20,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_5639",
+      "event": "demo-fx",
+      "role": "cfo",
+      "duration_ms": 19,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_5639",
+      "event": "demo-demand",
+      "role": "cfo",
+      "duration_ms": 19,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_5639",
+      "event": "demo-steel",
+      "role": "cfo",
+      "duration_ms": 42,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": false,
+      "adaptive": true
+    },
+    {
+      "company": "U_5639",
+      "event": "demo-rates",
+      "role": "treasury",
+      "duration_ms": 19,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_5639",
+      "event": "demo-fx",
+      "role": "treasury",
+      "duration_ms": 18,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_5639",
+      "event": "demo-demand",
+      "role": "treasury",
+      "duration_ms": 19,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_5639",
+      "event": "demo-steel",
+      "role": "treasury",
+      "duration_ms": 42,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": false,
+      "adaptive": true
+    },
+    {
+      "company": "U_225628",
+      "event": "demo-demand",
+      "role": "ceo",
+      "duration_ms": 19,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_225628",
+      "event": "demo-steel",
+      "role": "ceo",
+      "duration_ms": 42,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": false,
+      "adaptive": true
+    },
+    {
+      "company": "U_225628",
+      "event": "demo-fx",
+      "role": "ceo",
+      "duration_ms": 19,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_225628",
+      "event": "demo-rates",
+      "role": "ceo",
+      "duration_ms": 20,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_225628",
+      "event": "demo-demand",
+      "role": "cfo",
+      "duration_ms": 19,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_225628",
+      "event": "demo-rates",
+      "role": "cfo",
+      "duration_ms": 19,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_225628",
+      "event": "demo-fx",
+      "role": "cfo",
+      "duration_ms": 33,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_225628",
+      "event": "demo-steel",
+      "role": "cfo",
+      "duration_ms": 42,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": false,
+      "adaptive": true
+    },
+    {
+      "company": "U_225628",
+      "event": "demo-demand",
+      "role": "treasury",
+      "duration_ms": 19,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_225628",
+      "event": "demo-rates",
+      "role": "treasury",
+      "duration_ms": 19,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_225628",
+      "event": "demo-fx",
+      "role": "treasury",
+      "duration_ms": 19,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_225628",
+      "event": "demo-steel",
+      "role": "treasury",
+      "duration_ms": 42,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": false,
+      "adaptive": true
+    },
+    {
+      "company": "U_68157",
+      "event": "demo-steel",
+      "role": "ceo",
+      "duration_ms": 42,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": false,
+      "adaptive": true
+    },
+    {
+      "company": "U_68157",
+      "event": "demo-rates",
+      "role": "ceo",
+      "duration_ms": 19,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_68157",
+      "event": "demo-demand",
+      "role": "ceo",
+      "duration_ms": 19,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_68157",
+      "event": "demo-fx",
+      "role": "ceo",
+      "duration_ms": 18,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_68157",
+      "event": "demo-rates",
+      "role": "cfo",
+      "duration_ms": 19,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_68157",
+      "event": "demo-steel",
+      "role": "cfo",
+      "duration_ms": 42,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": false,
+      "adaptive": true
+    },
+    {
+      "company": "U_68157",
+      "event": "demo-demand",
+      "role": "cfo",
+      "duration_ms": 19,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_68157",
+      "event": "demo-fx",
+      "role": "cfo",
+      "duration_ms": 19,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_68157",
+      "event": "demo-rates",
+      "role": "treasury",
+      "duration_ms": 19,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_68157",
+      "event": "demo-steel",
+      "role": "treasury",
+      "duration_ms": 45,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": false,
+      "adaptive": true
+    },
+    {
+      "company": "U_68157",
+      "event": "demo-demand",
+      "role": "treasury",
+      "duration_ms": 20,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    },
+    {
+      "company": "U_68157",
+      "event": "demo-fx",
+      "role": "treasury",
+      "duration_ms": 19,
+      "valid_citations": true,
+      "bank_quotes_match": true,
+      "bank_present": true,
+      "adaptive": false
+    }
+  ],
+  "limitations": [
+    "Controlled synthetic news, only three provided company profiles.",
+    "Citation completeness and exact quotes do not establish semantic correctness.",
+    "Expert relevance/precision@k and live model quality not measured."
+  ]
+}
